@@ -1,4 +1,5 @@
 var katzDeliLine = [];
+var testArray = [];
 
 function takeANumber(currentLine, newPerson){
   currentLine.push(newPerson);
@@ -19,5 +20,5 @@ function nowServing(currentLine){
    return `Currently serving ${currentServing}.`
 }
 
-console.log(nowServing(katzDeliLine));
-console.log(katzDeliLine)
+//console.log(nowServing(katzDeliLine));
+console.log(nowServing(testArray));
