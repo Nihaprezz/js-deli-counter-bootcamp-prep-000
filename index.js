@@ -15,5 +15,7 @@ console.log(takeANumber(katzDeliLine, 'Grace'));
 console.log(takeANumber(katzDeliLine, 'Kent'));
 
 function nowServing(currentLine){
-  
+  return currentLine.slice(0);
 }
+
+console.log(nowServing(katzDeliLine));
