@@ -11,6 +11,6 @@ function takeANumber(currentLine, newPerson){
   }
 }
 
-console.log(takeANumber(katzDeliLine, 'Billy'));
-console.log(takeANumber(katzDeliLine, 'Erik'));
+console.log(takeANumber(katzDeliLine, 'Ada'));
+console.log(takeANumber(katzDeliLine, 'Grace'));
 console.log(katzDeliLine);
