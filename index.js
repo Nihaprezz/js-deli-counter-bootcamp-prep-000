@@ -28,7 +28,7 @@ console.log(nowServing(katzDeliLine));
 //console.log(nowServing(testArray));
 
 function currentLine(currentLine){
-  var string =
+  var string = '';
   //build string
   for (var i = 0; i < current.Line; i++){
     
