@@ -5,7 +5,9 @@ function takeANumber(currentLine, newPerson){
   
   //return `Welcome, ${newPerson}. You have entered the line`;
   for(var i = 0; i < currentLine.length; i++){
-    return 'first test';
+    if(currentLine[i] === newPerson){
+      return `Welcome, ${newPerson}. You are ${currentLine[i]} in the line.`
+    }
   }
 }
 
