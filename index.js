@@ -20,3 +20,4 @@ function nowServing(currentLine){
 }
 
 console.log(nowServing(katzDeliLine));
+console.log(katzDeliLine)
