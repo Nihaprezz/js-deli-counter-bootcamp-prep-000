@@ -26,3 +26,4 @@ function nowServing(currentLine){
 
 //console.log(nowServing(katzDeliLine));
 console.log(nowServing(testArray));
+console.log(testArray);
