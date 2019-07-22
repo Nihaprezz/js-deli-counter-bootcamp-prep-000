@@ -30,3 +30,5 @@ console.log(nowServing(katzDeliLine));
 function currentLine(currentLine){
   console.log(currentLine.join());
 }
+
+currentLine(katzDeliLine);
