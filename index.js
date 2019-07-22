@@ -28,7 +28,9 @@ console.log(nowServing(katzDeliLine));
 //console.log(nowServing(testArray));
 
 function currentLine(currentLine){
-  console.log(currentLine.join('-2'));
+  var string =
+  //build string
+  for (var i = 0; i < current.Line; i++){
+    
+  }
 }
-
-currentLine(katzDeliLine);
