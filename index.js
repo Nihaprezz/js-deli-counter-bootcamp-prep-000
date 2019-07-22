@@ -13,4 +13,7 @@ function takeANumber(currentLine, newPerson){
 console.log(takeANumber(katzDeliLine, 'Ada'));
 console.log(takeANumber(katzDeliLine, 'Grace'));
 console.log(takeANumber(katzDeliLine, 'Kent'));
-console.log(katzDeliLine);
+
+function nowServing(currentLine){
+  
+}
