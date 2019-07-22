@@ -16,8 +16,12 @@ console.log(takeANumber(katzDeliLine, 'Grace'));
 console.log(takeANumber(katzDeliLine, 'Kent'));
 
 function nowServing(currentLine){
-   var currentServing = currentLine.splice(0, 1);
-   return `Currently serving ${currentServing}.`
+  if (currentLine[0] === ""){
+    return "There is nobody waiting to be served!"
+  } else {
+    var currentServing = currentLine.splice(0, 1);
+    return `Currently serving ${currentServing}.`
+  }
 }
 
 //console.log(nowServing(katzDeliLine));
