@@ -12,3 +12,4 @@ function takeANumber(currentLine, newPerson){
 }
 
 console.log(takeANumber(katzDeliLine, 'Billy'))
+console.log(katzDeliLine);
