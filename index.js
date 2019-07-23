@@ -31,4 +31,4 @@ function currentLine(currentLine){
   return currentLine.join();
 }
 
-currentLine(katzDeliLine);
+console.log(currentLine(katzDeliLine))
