@@ -28,7 +28,7 @@ console.log(nowServing(katzDeliLine));
 //console.log(nowServing(testArray));
 
 function currentLine(currentLine){
-  return currentLine.join();
+  return currentLine.join('number');
 }
 
 console.log(currentLine(katzDeliLine))
