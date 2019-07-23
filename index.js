@@ -25,7 +25,7 @@ function nowServing(currentLine){
 }
 
 console.log(nowServing(katzDeliLine));
-//console.log(nowServing(testArray));
+console.log(nowServing(testArray));
 
 function currentLine(currentLine){
   var stringArray =[];
@@ -42,3 +42,4 @@ function currentLine(currentLine){
 }
 
 console.log(currentLine(katzDeliLine));
+console.log(testArray);
