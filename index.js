@@ -29,7 +29,8 @@ console.log(nowServing(katzDeliLine));
 //console.log(nowServing(testArray));
 
 function currentLine(currentLine){
-  return currentLine.join();
+  //separate array, add the place value to string, join array
+  
+  
 }
 
-console.log(currentLine(katzDeliLine))
