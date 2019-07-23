@@ -38,3 +38,4 @@ function currentLine(currentLine){
   return stringArray;
 }
 
+console.log(currentLine(katzDeliLine));
