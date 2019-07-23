@@ -29,8 +29,11 @@ console.log(nowServing(katzDeliLine));
 //console.log(nowServing(testArray));
 
 function currentLine(currentLine){
-  //separate array, add the place value to string, join array
   var stringArray =[];
+  
+  if(currentLine[0] === undefined){
+    return 
+  }
   
   for(var i=0; i < currentLine.length; i++){
     stringArray[i] = ` ${parseInt([i])+1}. ${currentLine[i]}`
