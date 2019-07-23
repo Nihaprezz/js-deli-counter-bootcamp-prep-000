@@ -30,7 +30,10 @@ console.log(nowServing(katzDeliLine));
 
 function currentLine(currentLine){
   //separate array, add the place value to string, join array
+  var stringArray =[];
   
-  
+  for(var i=0; i < currentLine.length; i++){
+    stringArray[i] = `
+  }
 }
 
