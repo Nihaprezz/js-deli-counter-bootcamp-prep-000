@@ -36,6 +36,7 @@ function currentLine(currentLine){
     stringArray[i] = ` ${parseInt([i])+1}. ${currentLine[i]}`
   }
   //return the string
+  return stringArray.join();
 }
 
 console.log(currentLine(katzDeliLine));
