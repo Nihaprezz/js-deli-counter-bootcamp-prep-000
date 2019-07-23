@@ -28,5 +28,5 @@ console.log(nowServing(katzDeliLine));
 //console.log(nowServing(testArray));
 
 function currentLine(currentLine){
-  
+  return currentLine.
 }
