@@ -42,4 +42,4 @@ function currentLine(currentLine){
 }
 
 console.log(currentLine(katzDeliLine));
-console.log(currentLine(testArray);
+console.log(currentLine(testArray));
