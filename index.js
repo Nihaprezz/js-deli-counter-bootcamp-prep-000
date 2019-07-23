@@ -33,7 +33,7 @@ function currentLine(currentLine){
   var stringArray =[];
   
   for(var i=0; i < currentLine.length; i++){
-    stringArray[i] = ` ${[i]}. ${currentLine[i]}`
+    stringArray[i] = ` ${parseInt([i])}. ${currentLine[i]}`
   }
   //return the string
 }
