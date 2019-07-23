@@ -35,7 +35,7 @@ function currentLine(currentLine){
   for(var i=0; i < currentLine.length; i++){
     stringArray[i] = `${[i]}. ${currentLine[i]}`
   }
-  return stringArray;
+  return stringArray.join();
 }
 
 console.log(currentLine(katzDeliLine));
