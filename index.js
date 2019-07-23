@@ -32,7 +32,7 @@ function currentLine(currentLine){
   var stringArray =[];
   
   if(currentLine[0] === undefined){
-    return 'The line is currenly '
+    return 'The line is currently empty.'
   }
   
   for(var i=0; i < currentLine.length; i++){
